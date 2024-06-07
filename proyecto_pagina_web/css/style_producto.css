@@ -1,0 +1,121 @@
+/* Reset de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Estilo del encabezado */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 60px;
+}
+
+nav .logo img {
+    max-height: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #555;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #777;
+}
+
+/* Estilo del contenido principal */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Estilo de la sección de productos */
+.productos {
+    text-align: center;
+}
+
+.producto {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.producto h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.producto p {
+    margin: 0.5rem 0;
+}
+
+.producto .precio {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.producto .cantidad {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.producto button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background: #555;
+}
+
+/* Estilo del pie de página */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
